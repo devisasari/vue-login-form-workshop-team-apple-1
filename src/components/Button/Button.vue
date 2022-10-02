@@ -8,16 +8,18 @@ const props = defineProps(['name', 'variant', 'classes']);
 
 <style lang="scss">
 .btn {
-	padding: 0.5rem 1rem;
-	border-radius: 0.25rem;
+	padding: 16px 32px;
 	border: none;
 	cursor: pointer;
-	font-size: 1rem;
-	font-weight: 600;
 	transition: all 0.2s ease-in-out;
 
-	&:hover {
-		transform: translateY(-2px);
+	&-primary {
+		background-color: #8b54ff;
+		color: white;
+
+		&:hover {
+			background-color: #613ab2;
+		}
 	}
 }
 </style>
