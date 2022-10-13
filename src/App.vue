@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
-import RegisterForm from './components/Forms/RegisterForm.vue';
-import LoginForm from './components/Forms/LoginForm.vue';
+import RegisterForm from '@components/Forms/RegisterForm.vue';
+import LoginForm from '@components/Forms/LoginForm.vue';
 const show = ref(false);
 const showForm = (value) => {
 	show.value = value;
